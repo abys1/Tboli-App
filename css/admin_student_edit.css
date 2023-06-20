@@ -1,0 +1,99 @@
+
+#editEmployeeModal .modal-dialog {
+    max-width: 500px;
+  }
+  
+  #editEmployeeModal .modal-content {
+    animation: fade-in 0.3s ease;
+  }
+  
+  @keyframes fade-in {
+    0% {
+      opacity: 0;
+      transform: translateY(-10px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+}
+/* CSS for the edit modal */
+.modal-content {
+    width: 400px;
+  }
+  
+  .modal-header {
+    background-color: #f4f4f4;
+    color: #333;
+  }
+  
+  .modal-title {
+    margin-top: 0;
+  }
+  
+  .modal-body {
+    padding: 20px;
+  }
+  
+  .modal-footer {
+    background-color: #f4f4f4;
+    padding: 10px 20px;
+  }
+  
+  .btn-default {
+    background-color: #ccc;
+    color: #fff;
+  }
+  
+  .btn-info {
+    background-color: #337ab7;
+    color: #fff;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-label {
+    font-weight: bold;
+  }
+  
+  .form-control {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+  }
+  
+  .form-select {
+    width: 100%;
+    padding: 8px;
+    font-size: 14px;
+    border: 1px solid #ccc;
+  }
+  
+  .close {
+    color: #000;
+  }
+  
+  .close:hover {
+    color: #ccc;
+  }
+  
+  /* Center the modal */
+  .modal-dialog-centered {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 80vh;
+    
+  }
+  
+  /* Responsive styles */
+  @media (max-width: 600px) {
+    .modal-content {
+      width: 100%;
+      max-width: 350px;
+    }
+  }
+  
